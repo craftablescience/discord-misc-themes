@@ -1,0 +1,13 @@
+/**
+ * @name           Hide Voice Status Icons
+ * @namespace      github.com/craftablescience/discord-misc-themes
+ * @version        1.0.0
+ * @description    Hide status icons from the voice channel user list
+ * @author         craftablescience
+ */
+
+div[class^="voiceUser"] > div[class^="content"] > div[class^="icons"] > div[class^="iconGroup"]:has(> div[class^="iconSpacing"] > img[class*="hangStatusIcon"]),
+div[class^="voiceUser"] > div[class^="content"] > div[class^="icons"] > div[class^="iconGroup"]:has(> div[class^="iconSpacing"][aria-label^="Add a status"] > svg),
+div[class^="voiceUser"] > div[class^="content"] > div[class^="icons"] > div[class^="iconGroup"]:has(> div[aria-label^="Playing"] > div > img[class^="gameIcon"]) {
+    display: none;
+}
