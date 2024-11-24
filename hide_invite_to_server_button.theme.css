@@ -1,0 +1,11 @@
+/**
+ * @name           Hide "Invite to Server" Button
+ * @namespace      github.com/craftablescience/discord-misc-themes
+ * @version        1.0.0
+ * @description    Hide "Invite to Server" button in the user context menu
+ * @author         craftablescience
+ */
+
+#user-context-invite-to-server {
+  display: none;
+}
